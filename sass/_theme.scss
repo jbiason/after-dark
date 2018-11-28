@@ -11,6 +11,7 @@
 }
 .muted {
   color: rgba(255, 255, 255, 0.5);
+  margin-top: 5px;
 }
 .responsive-iframe {
   position: relative;
@@ -83,7 +84,7 @@ html {
 }
 article [itemprop="description"], article [itemprop="summary"] {
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 article [itemprop="summary"] p {
