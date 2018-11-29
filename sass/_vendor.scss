@@ -202,7 +202,7 @@ a:hover {
   position: relative;
   display: inline-block;
   display: table-cell;
-  padding: 20px 0 30px;
+  padding: 20px 0 10px;
   margin: 0;
   overflow: hidden
 }
@@ -210,7 +210,7 @@ a:hover {
 .hack h1:after {
   content: "====================================================================================================";
   position: absolute;
-  bottom: 10px;
+  bottom: -7px;
   left: 0
 }
 
@@ -220,8 +220,8 @@ a:hover {
 
 .hack h2, .hack h3, .hack h4, .hack h5, .hack h6 {
   position: relative;
-  margin-top: 1.75rem;
-  margin-bottom: 5px;
+  margin-top: 1rem;
+  margin-bottom: 10px;
 }
 
 .hack h2:before, .hack h3:before, .hack h4:before, .hack h5:before, .hack h6:before {
