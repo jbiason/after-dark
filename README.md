@@ -1,6 +1,8 @@
-# after-dark
+# nighttime
 
-![after-dark screenshot](https://github.com/getzola/after-dark/blob/master/screenshot.png?raw=true)
+This is a fork of [After Dark](https://github.com/getzola/after-dark/), a theme for [Zola](https://www.getzola.org/), with aditional suppot for tags and sections.
+
+![after-dark screenshot](https://github.com/jbiason/nighttime/blob/master/screenshot.png?raw=true)
 
 ## Contents
 
@@ -14,12 +16,12 @@ First download this theme to your `themes` directory:
 
 ```bash
 $ cd themes
-$ git clone https://github.com/getzola/after-dark.git
+$ git clone https://github.com/jbiason/nighttime.git
 ```
 and then enable it in your `config.toml`:
 
 ```toml
-theme = "after-dark"
+theme = "nighttime"
 ```
 
 This theme requires your index section (`content/_index.md`) to be paginated to work:
@@ -45,7 +47,12 @@ as it only works for non-paginated taxonomies by default.
 
 ## Options
 
+Because this is, mostly, After Dark with support for extra stuff, it still uses the same options as After Dark.
+
+If you're already using After Dark, there are no changes in your configs that need to be done, besides changing the theme name.
+
 ### Top-menu
+
 Set a field in `extra` with a key of `after_dark_menu`:
 
 ```toml
