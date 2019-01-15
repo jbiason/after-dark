@@ -1,0 +1,6 @@
+{# A section that has only its front matter and no content. #}
+
+{% block content %}
+    <h1>{{ section.title }}</h1>
+    {{ section.content | safe }}
+{% endblock content %}
