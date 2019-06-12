@@ -1,6 +1,12 @@
 {% extends "index.html" %}
 {% import "post_macros.html" as post_macros %}
 
+{% block title %}
+	{{ config.title }}
+	- 
+	{{ page.title }}
+{% endblock %}
+
 {% block content %}
     {% block header %}
         {{ super() }}
