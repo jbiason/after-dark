@@ -2,7 +2,17 @@
 
 {# A section that has only its front matter and no content. #}
 
+{% block title %}
+	{{ config.title }}
+	- 
+	{{ section.title }}
+{% endblock %}
+
 {% block content %}
+    {% block header %}
+        {{ super() }}
+    {% endblock header %}
+
     <h1>{{ section.title }}</h1>
     {{ section.content | safe }}
 {% endblock content %}
