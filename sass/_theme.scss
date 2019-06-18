@@ -99,3 +99,11 @@ article [itemprop="summary"] p {
     max-width: 50rem;
   }
 }
+
+div.footnote-definition sup {
+	display: inline;
+}
+
+div.footnote-definition p {
+	display: inline;
+}
